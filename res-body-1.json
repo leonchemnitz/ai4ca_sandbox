@@ -1,0 +1,13 @@
+{
+  "id": "cmpl-74sZnaVq7wlrxiBg7aJwXWFxWabH2",
+  "model": "cushman-ml",
+  "created": 1681397459,
+  "choices": [
+    {
+      "text": " numbers",
+      "index": 0,
+      "finish_reason": "stop",
+      "logprobs": null
+    }
+  ]
+}

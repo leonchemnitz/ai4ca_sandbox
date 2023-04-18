@@ -1,0 +1,15 @@
+{
+  "prompt": "# Path: demo.py\n// a function that calculates the sum of two numbers\ndef sum(a, b):\n    return a + b\n\n// a function that calculates the difference of two numbers\ndef diff(a, b):\n    return a - b\n\n// a function that calculates the product of two numbers\ndef product(a, b):\n    return a * b\n\n// a function that calculates the quotient of two numbers\ndef quotient(a, b):\n    return a / b\n\n//calculate the fibonacci sequence\ndef fibonacci(n):\n",
+  "suffix": "",
+  "max_tokens": 500,
+  "temperature": 0.2,
+  "top_p": 1,
+  "n": 3,
+  "stop": ["\n\n\n"],
+  "stream": true,
+  "extra": {
+    "language": "python",
+    "next_indent": 0,
+    "trim_by_indentation": true
+  }
+}

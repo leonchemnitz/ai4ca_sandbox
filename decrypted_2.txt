@@ -1,0 +1,186 @@
+req:
+
+....:method....POST....:path...%/v1/engines/copilot-codex/completions...
+:authority...#copilot-proxy.githubusercontent.com....:scheme....https...
+authorization....Bearer tid=51548ff4266beef28b801bd3cfc5a887;exp=1681400955;sku=free_educational;rt=1:1438eb27eaa0ae51a22cc492d8acd0004f938d4180eda93736ce5013fc6aadc1....x-request-id...$efd50a46-a9f5-41d5-bc15-c42dbcbf0ee9....openai-organization....github-copilot....vscode-sessionid...1bb3f3f70-7fee-4af6-a64c-e5a28a8356801681399144220....vscode-machineid...@a67d01ca281df05974985a116a10896299e1e423b33b3f4a6ae58c99a17282c2....editor-version....Neovim/0.9.0 + Node.js 18.12.1....editor-plugin-version....copilot.vim/1.8.3...
+openai-intent...
+copilot-ghost....content-type....application/json...
+user-agent....GithubCopilot/1.73.0....content-length....639....accept....*/*....accept-encoding....gzip,deflate,br.........{"prompt":"# Path: demo.py\n// a function that calculates the sum of two numbers\ndef sum(a, b):\n    return a + b\n\n// a function that calculates the difference of two numbers\ndef diff(a, b):\n    return a - b\n\n// a function that calculates the product of two numbers\ndef product(a, b):\n    return a * b\n\n// a function that calculates the quotient of two numbers\ndef quotient(a, b):\n    return a / b\n\n//calculate the fibonacci sequence\ndef fibonacci(n):\n","suffix":"","max_tokens":500,"temperature":0.2,"top_p":1,"n":3,"stop":["\n\n\n"],"stream":true,"extra":{"language":"python","next_indent":0,"trim_by_indentation":true}}.............
+
+....:status....200....azureml-model-deployment...
+x625ba4f78aa8....content-security-policy....default-src 'none'; sandbox....content-type....text/event-stream....openai-processing-ms....45.6085....strict-transport-security....max-age=31536000....x-request-id...$efd50a46-a9f5-41d5-bc15-c42dbcbf0ee9....date....Thu, 13 Apr 2023 15:19:39 GMT.........data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"","index":1,"finish_reason":null,"logprobs":null}]}
+
+
+
+resp:
+
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"   ","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" if","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" n","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" \u003c=","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" ","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"1","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":":\n       ","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" return","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" n","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"\n   ","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" else","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":":\n       ","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" return","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" fibonacci","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"(n","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"-","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"1","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":")","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" +","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" fibonacci","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"(n","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-m.........l","created":1681399179,"choices":[{"text":"-","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"2","index":1,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":")\n","index":1,"finish_reason":"stop","logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"   ","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" if","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" n","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" \u003c ","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"2","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":":\n       ","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" return","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" n","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"\n   ","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" else","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":":\n       ","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" return","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" fibonacci","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"(n","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"-","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"1","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":")","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" +","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" fibonacci","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"(n","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"-","index":2,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"2","index":2,"fi.........nish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":")\n","index":2,"finish_reason":"stop","logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"   ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" if","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" n","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" ==","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"0","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":":\n       ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" return","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"0","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"\n   ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" elif","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" n","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" ==","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"1","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":":\n       ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" return","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"1","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"\n   ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" else","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":":\n       ","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJ.........EFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" return","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" fibonacci","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"(n","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"-","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"1","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":")","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" +","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":" fibonacci","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"(n","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"-","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":"2","index":0,"finish_reason":null,"logprobs":null}]}
+
+data: {"id":"cmpl-74t1XLVhUmJEFXbHEfcC9SumaIFQe","model":"cushman-ml","created":1681399179,"choices":[{"text":")\n","index":0,"finish_reason":"stop","logprobs":null}]}
+
+data: [DONE]

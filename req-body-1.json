@@ -1,0 +1,15 @@
+{
+  "prompt": "# Path: demo.py\n// a function that calculates the sum of two",
+  "suffix": "",
+  "max_tokens": 500,
+  "temperature": 0,
+  "top_p": 1,
+  "n": 1,
+  "stop": ["\n"],
+  "stream": true,
+  "extra": {
+    "language": "python",
+    "next_indent": 0,
+    "trim_by_indentation": true
+  }
+}
